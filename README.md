@@ -5,8 +5,11 @@ Add a new photo:
 3. Edit the file gallery.html
 4. Add an image tag to the gallery section you want to add to
    example:
-   <!--<img src="Images/test.jpg">-->
-5. If you want to add a new section after City and Nature, copy and paste the entire section of code and add it to the page:
+   ```
+   <img src="Images/test.jpg">
+   ```
+6. If you want to add a new section after City and Nature, copy and paste the entire section of code and add it to the page:
+   ```
     <!--Third Test Gallery Section-->
           <div class="gallery_section">
             <h1>Nature</h1>
@@ -23,8 +26,9 @@ Add a new photo:
               </div>
             </div>
         <!--End of Third Test Gallery-->
+   ```
 
-6. Save file
-7. To test locally, open the html file from your local computer (it should open in chrome)
-8. If all looks good, open Github Desktop and name your commit
-9. Push to origin
+7. Save file
+8. To test locally, open the html file from your local computer (it should open in chrome)
+9. If all looks good, open Github Desktop and name your commit
+10. Commit to main & Push
