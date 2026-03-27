@@ -1,5 +1,8 @@
-Add a new photo:
+## Before making new changes:
+1. Open Github Desktop
+2. Pull Origin (if there's nothing to pull then don't worry)
 
+## Adding a new photo:
 1. Add image file to Images folder
 2. Open this project in a text editor or VSCode
 3. Edit the file gallery.html
@@ -30,5 +33,5 @@ Add a new photo:
 
 7. Save file
 8. To test locally, open the html file from your local computer (it should open in chrome)
-9. If all looks good, open Github Desktop and name your commit
-10. Commit to main & Push
+9. If all looks good, open Github Desktop and fill in the Summary box with what you did
+10. Commit to main & Push origin
