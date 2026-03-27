@@ -339,7 +339,7 @@ ul {
   justify-content: center;
 }
 
-#back_button, #next_button{
+.back_button, .next_button{
   width: 15px;
   height:auto;
   cursor: pointer;
@@ -347,7 +347,7 @@ ul {
   opacity: 80%;
 }
 
-#fullpage {
+.fullpage {
   display: none;
   position: fixed; 
   z-index: 9999;
@@ -374,7 +374,7 @@ ul {
     width: 100vw;
   }
 
-  #back_button, #next_button {
+  .back_button, .next_button {
     display: none;
   }
 
