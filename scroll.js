@@ -35,10 +35,12 @@ galleryWraps.forEach((wrap) => {
       fullpage.style.backgroundImage = `url(${image.src})`;
       fullpage.style.top = `${scrollY}px`;
       fullpage.style.display = 'block';
+      document.body.style.overflow = 'hidden';
     });
   });
 
   fullpage.addEventListener('click', () => {
     fullpage.style.display = 'none';
+    document.body.style.overflow = '';
   });
 });
