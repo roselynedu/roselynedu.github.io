@@ -5,7 +5,7 @@ Add a new photo:
 3. Edit the file gallery.html
 4. Add an image tag to the gallery section you want to add to
    example:
-   <img src="Images/test.jpg">
+   <!--<img src="Images/test.jpg">-->
 5. If you want to add a new section after City and Nature, copy and paste the entire section of code and add it to the page:
     <!--Third Test Gallery Section-->
           <div class="gallery_section">
